@@ -15,6 +15,11 @@
 		0426A5B4289DC819003CFBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426A5B2289DC819003CFBF9 /* LaunchScreen.storyboard */; };
 		0426A5BF289DC81A003CFBF9 /* DataPassingInTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5BE289DC81A003CFBF9 /* DataPassingInTableViewTests.swift */; };
 		0426A5CA289DC81A003CFBF9 /* DataPassingInTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5C9289DC81A003CFBF9 /* DataPassingInTableViewUITests.swift */; };
+		0426A5DB289DC97A003CFBF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5DA289DC97A003CFBF9 /* SecondViewController.swift */; };
+		0426A5E0289DC99A003CFBF9 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5DF289DC99A003CFBF9 /* StudentModel.swift */; };
+		0426A5E5289DC9C1003CFBF9 /* StudentDataPassingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5E4289DC9C1003CFBF9 /* StudentDataPassingProtocol.swift */; };
+		0426A5EB289DC9E2003CFBF9 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426A5E9289DC9E2003CFBF9 /* DataTableViewCell.swift */; };
+		0426A5EC289DC9E2003CFBF9 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0426A5EA289DC9E2003CFBF9 /* DataTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		0426A5C5289DC81A003CFBF9 /* DataPassingInTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPassingInTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0426A5C9289DC81A003CFBF9 /* DataPassingInTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassingInTableViewUITests.swift; sourceTree = "<group>"; };
 		0426A5CB289DC81A003CFBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0426A5DA289DC97A003CFBF9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0426A5DF289DC99A003CFBF9 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		0426A5E4289DC9C1003CFBF9 /* StudentDataPassingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDataPassingProtocol.swift; sourceTree = "<group>"; };
+		0426A5E9289DC9E2003CFBF9 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		0426A5EA289DC9E2003CFBF9 /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				0426A5A7289DC819003CFBF9 /* AppDelegate.swift */,
 				0426A5A9289DC819003CFBF9 /* SceneDelegate.swift */,
 				0426A5AB289DC819003CFBF9 /* ViewController.swift */,
+				0426A5DA289DC97A003CFBF9 /* SecondViewController.swift */,
+				0426A5DF289DC99A003CFBF9 /* StudentModel.swift */,
+				0426A5E4289DC9C1003CFBF9 /* StudentDataPassingProtocol.swift */,
+				0426A5E9289DC9E2003CFBF9 /* DataTableViewCell.swift */,
+				0426A5EA289DC9E2003CFBF9 /* DataTableViewCell.xib */,
 				0426A5AD289DC819003CFBF9 /* Main.storyboard */,
 				0426A5B0289DC819003CFBF9 /* Assets.xcassets */,
 				0426A5B2289DC819003CFBF9 /* LaunchScreen.storyboard */,
@@ -234,6 +249,7 @@
 				0426A5B4289DC819003CFBF9 /* LaunchScreen.storyboard in Resources */,
 				0426A5B1289DC819003CFBF9 /* Assets.xcassets in Resources */,
 				0426A5AF289DC819003CFBF9 /* Main.storyboard in Resources */,
+				0426A5EC289DC9E2003CFBF9 /* DataTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0426A5DB289DC97A003CFBF9 /* SecondViewController.swift in Sources */,
 				0426A5AC289DC819003CFBF9 /* ViewController.swift in Sources */,
+				0426A5E5289DC9C1003CFBF9 /* StudentDataPassingProtocol.swift in Sources */,
 				0426A5A8289DC819003CFBF9 /* AppDelegate.swift in Sources */,
+				0426A5E0289DC99A003CFBF9 /* StudentModel.swift in Sources */,
+				0426A5EB289DC9E2003CFBF9 /* DataTableViewCell.swift in Sources */,
 				0426A5AA289DC819003CFBF9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
